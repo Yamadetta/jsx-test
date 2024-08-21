@@ -1,0 +1,28 @@
+{
+  "name": "jsx-check",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.jsx",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel index.jsx --out-file result.js",
+    "compile-ts": "babel some.tsx --out-file some-result.js",
+    "build": "vite build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vitejs/plugin-react": "^4.3.1",
+    "jsx-dom": "^8.1.4",
+    "vite": "^5.4.2"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.25.2",
+    "@babel/preset-env": "^7.25.3",
+    "@babel/preset-react": "^7.24.7",
+    "@babel/preset-typescript": "^7.24.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "typescript": "^5.5.4"
+  }
+}
